@@ -1,2 +1,2 @@
 <?php
-echo "H01 - index.php."
+echo "H01 - index.php.";
