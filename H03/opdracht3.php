@@ -13,10 +13,17 @@
 
 
 <?php
-
-
-
-
+echo '<p>While-loop</p>';
+$x = 35;
+while($x >= 25) {
+    echo "hoppelepee ";
+    $x--;
+    }
+    echo '<br>';
+echo '<p>For-loop</p>';
+for ($i = 35; $i >=  25; $i--){
+    echo "hoppelepee ";
+}
 
 
 
