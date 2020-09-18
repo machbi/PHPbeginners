@@ -30,3 +30,4 @@ print("<li>".$tijd."</li>") ;
 }
 }
 print("</ul>");
+highlight_file('opdracht7.php');
