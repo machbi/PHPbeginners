@@ -10,13 +10,18 @@
 <body>
 <?php
 
-
+// De input van de gebruiker
 $originalString = "Dit was een lastige opdracht.";
+
+// Lees eerst regel 17
+// Hier roep je de functie aan 2/2.
 echo reverseString($originalString);
 
+// Dit is de functie 1/2
 function reverseString($originalString)  {
     $stringLength = strlen($originalString);
     $productString = "";
+    // Waarom moet achter $stringLength een  - 1?
     for ($i = $stringLength - 1; $i >= 0; $i--){
         $productString .= substr($originalString, $i, 1);
     }
