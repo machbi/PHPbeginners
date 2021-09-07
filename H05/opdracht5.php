@@ -56,9 +56,6 @@ function check_credentials($mailadres, $wachtwoord){
 //  tussentijdse check:  echo "Dit is de data: {$mailadres} en {$wachtwoord}";
 
 
-
-
-
     if (check_credentials($mailadres,  $wachtwoord)) {
         exit("Welkom!");
     } else {
