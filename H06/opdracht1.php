@@ -6,16 +6,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style media="screen">
+      table, tr, td {
+        border: solid black 1px ;
+        border-collapse: collapse;
+        padding: 20;
+      }
+    </style>
 </head>
 <body>
 
+
+
 <?php
-
-
 $servername = "localhost";
-$dbname = "phpschool";
-$username = "root";
-$password = "";
+$dbname = "id17560532_phpschool";
+$username = "id17560532_root";
+$password = "0[l%1R<4}G/}37&R";
 
 try {
     $conn = new PDO("mysql:host={$servername};dbname={$dbname}", $username, $password);
@@ -26,8 +33,8 @@ try {
 }
 
 $query = "SELECT * FROM cursist";
-$stmt = $conn->prepare($query) or die ('Error 19');
-$stmt->execute() or die ('Error 21');
+$stmt = $conn->prepare($query) or die ('Error 1.');
+$stmt->execute() or die ('Error 2.');
 
 echo '<table>';
 
@@ -51,6 +58,7 @@ echo '</table>'
 // $stmt->execute() or die('Error 2');
 // $row = $stmt->fetch() or die('Error 3');
 // echo $row['roepnaam'];
+
 
 ?>
 
